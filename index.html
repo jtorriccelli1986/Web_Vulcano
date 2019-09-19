@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
@@ -147,10 +147,11 @@
         
         <span class="text-1">Manténgase al tanto de nuestras novedades</span>
         <span class="text-2">Puedes suscribirte para recibir nuestras noticias. Vamos a proporcionarle información y nuestros contenidos de valor</span>
-        <form action="" class="form-contacto">
+        <form action="#" class="form-contacto">
             <label for="" class="lbl-email">E-mail</label>
             <input type="text" class="inp-email">
-            <button class="btn">SUSBRIBIRSE</button>
+            <button id="newsletter" class="btn" type="button" >SUSBRIBIRSE</button>
+            <p class="text-gracias">Gracias por suscribirte , pronto tendras noticias de nosotros.</p>
         </form>
         </div>
     </section>
@@ -190,6 +191,8 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/wow.js"></script>
+
+    <script src="js/main.js"></script>
     <script>
     //AOS.init();
     new WOW().init();
